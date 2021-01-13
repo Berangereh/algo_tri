@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const fileName = process.argv[2];
 
-//Tri bulles
+//Tri par fusion
 fs.readFile(fileName, 'utf8', (error, data) => {
 
     var digits = data.toString().split(' ');
